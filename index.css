@@ -1,0 +1,24 @@
+#container{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    /*background-image: url(../img/PANTALLA-INICIO.png);
+    background-repeat: no-repeat;
+    background-size:cover;*/
+    min-height: 400px;
+    background-image: url(../img/Imagen1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+#cabecera{
+    position: relative;
+    text-align: center;
+    height: 10%;
+    width: 10%;
+    min-height: 400px;
+    background-image: url(../img/NHD.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
