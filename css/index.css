@@ -2,20 +2,79 @@
     position: fixed;
     height: 100%;
     width: 100%;
-    max-height: 400px;
+    max-width: 500px;
+    max-height: 600px;
     background-image: url(../img/Imagen1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
 }
 #cabecera{
-    position: fixed;
+    margin-left: 17%;
+    margin-top: 5%;
     text-align: center;
-    height: 10%;
-    width: 10%;
-    min-height: 400px;
+    height: 100px;
+    width: 300px;
     background-image: url(../img/NHD.PNG);
     background-repeat: no-repeat;
     background-position: center;
+    background-size:contain;
+}
+#menu{
+    margin-top: 10%;
+    margin-left: 9%;
+    text-align: center;
+    height: auto;
+    width: 400px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#consejos{
+    margin-left: 6%;
+    text-align: center;
+    height: 70px;
+    width: 350px;
+    background-image: url(../img/CONSEJO.PNG);
     background-size:cover;
+    background-position: center;
+}
+#calculos{
+    margin-left: 6%;
+    margin-top: 2%;
+    text-align: center;
+    height: 70px;
+    width: 350px;
+    background-image: url(../img/CALC.png);
+    background-size:cover;
+    background-position: center;
+}
+#desnutricion{
+    margin-left: 6%;
+    margin-top: 2%;
+    text-align: center;
+    height: 70px;
+    width: 350px;
+    background-image: url(../img/DESN.png);
+    background-size:cover;
+    background-position: center;
+}
+#obesidad{
+    margin-left: 6%;
+    margin-top: 2%;
+    text-align: center;
+    height: 70px;
+    width: 350px;
+    background-image: url(../img/OBES.PNG);
+    background-size:cover;
+    background-position: center;
+}
+#informacion{
+    margin-left: 6%;
+    margin-top: 2%;
+    text-align: center;
+    height: 70px;
+    width: 350px;
+    background-image: url(../img/INFO.PNG);
+    background-size:cover;
+    background-position: center;
 }

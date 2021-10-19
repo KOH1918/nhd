@@ -1,0 +1,51 @@
+#container{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    max-width: 500px;
+    max-height: 600px;
+    background-image: url(../img/Imagen1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+#cabecera{
+    margin-left: 20%;
+    margin-top: 5%;
+    text-align: center;
+    height: 100px;
+    width: 300px;
+    background-image: url(../img/CONSEJO.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+#menu{
+    margin-top: 5%;
+    margin-left: 9%;
+    text-align: center;
+    height: auto;
+    width: 400px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+#obeso{
+    margin-left: 31%;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    background-image: url(../img/obeso.PNG);
+    background-size:cover;
+    background-position: center;
+}
+#desnutrido{
+    margin-left: 31%;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    background-image: url(../img/denutricions.PNG);
+    background-size:cover;
+    background-position: center;
+    margin-top: 5%;
+}

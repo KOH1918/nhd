@@ -1,0 +1,62 @@
+#container{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    max-width: 500px;
+    max-height: 600px;
+    background-image: url(../img/Imagen1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+#cabecera{
+    margin-left: 20%;
+    margin-top: 5%;
+    text-align: center;
+    height: 100px;
+    width: 300px;
+    background-image: url(../img/DESN.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+#txt1{
+    margin-top: 5%;
+    margin-left: 9%;
+    text-align: center;
+    height: auto;
+    width: 400px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+#txt2{
+    margin-top: 5%;
+    margin-left: 9%;
+    text-align: center;
+    height: auto;
+    width: 400px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: none;
+}
+#slider{
+    margin-top: 5%;
+    margin-left: 9%;
+    text-align: center;
+    height: auto;
+    width: 400px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: none;
+}
+p{
+    text-align: justify;
+    margin-left: 6%;
+    margin-top: 2%;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: xx-large;
+    height: auto;
+    width: 350px;
+}
