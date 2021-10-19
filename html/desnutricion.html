@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/desnutricion.css">
+    <title>desnutricion</title>
+</head>
+<body>
+    <div id="container">
+        <a href="index.html">
+            <div id="cabecera">
+
+            </div>
+        </a>
+        <div id="txt1">
+            <p>Señala toda pérdida anorml de peso del organismo, desde la más ligera hasta la más grave.</p><br><br>
+            <br><br><button onclick="txt1()">Toca aquí para conocer más...</button>
+        </div>
+        <div id="txt2">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+
+        </div>
+        <div id="slider">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        
+        </div>
+    </div>
+    <script>
+        function txt1() {
+            var x = document.getElementById("txt1");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+                txt2();
+            }
+        }
+        function txt2() {
+            var x = document.getElementById("txt2");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+
+            }
+        }
+
+    </script>
+</body>
+</html>
