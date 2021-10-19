@@ -1,0 +1,16 @@
+body{
+
+}
+#container{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    /*background-image: url(../img/PANTALLA-INICIO.png);
+    background-repeat: no-repeat;
+    background-size:cover;*/
+    min-height: 400px;
+    background-image: url(../img/PANTALLA-INICIO.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover; 
+}
