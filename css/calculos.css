@@ -1,0 +1,70 @@
+#container{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    max-width: 500px;
+    max-height: 600px;
+    background-image: url(../img/Imagen1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+#cabecera{
+    margin-left: 17%;
+    margin-top: 5%;
+    text-align: center;
+    height: 100px;
+    width: 300px;
+    background-image: url(../img/NHD.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+#menu{
+    margin-top: 10%;
+    margin-left: 9%;
+    text-align: center;
+    height: auto;
+    width: 400px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#cusar{
+    margin-left: 6%;
+    text-align: center;
+    height: 70px;
+    width: 350px;
+    background-image: url(../img/utilizar.png);
+    background-size:cover;
+    background-position: center;
+}
+#tninos{
+    margin-left: 6%;
+    margin-top: 2%;
+    text-align: center;
+    height: 70px;
+    width: 350px;
+    background-image: url(../img/tabninos.png);
+    background-size:cover;
+    background-position: center;
+}
+#tninas{
+    margin-left: 6%;
+    margin-top: 2%;
+    text-align: center;
+    height: 70px;
+    width: 350px;
+    background-image: url(../img/tabninas.png);
+    background-size:cover;
+    background-position: center;
+}
+#calc{
+    margin-left: 6%;
+    margin-top: 2%;
+    text-align: center;
+    height: 70px;
+    width: 350px;
+    background-image: url(../img/MAS.png);
+    background-size:cover;
+    background-position: center;
+}
