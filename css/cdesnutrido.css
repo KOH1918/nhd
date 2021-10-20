@@ -15,29 +15,10 @@
     text-align: center;
     height: 100px;
     width: 300px;
-    background-image: url(../img/DESN.png);
+    background-image: url(../img/CONSEJO.PNG);
     background-repeat: no-repeat;
     background-position: center;
     background-size:contain;
-}
-#txt1{
-    margin-top: 5%;
-    margin-left: 9%;
-    text-align: center;
-    height: auto;
-    width: 400px;
-    padding-top: 2%;
-    padding-bottom: 2%;
-}
-#txt2{
-    margin-top: 5%;
-    margin-left: 9%;
-    text-align: center;
-    height: auto;
-    width: 400px;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    display: none;
 }
 #slider{
     margin-left: 9%;
@@ -59,16 +40,7 @@ p{
     height: auto;
     width: 350px;
 }
-#txt2 p{
-    text-align: justify;
-    margin-left: 6%;
-    margin-top: 2%;
-    text-align: center;
-    font-family:Arial, Helvetica, sans-serif ;
-    font-size: medium;
-    height: auto;
-    width: 350px;
-}
+
 * {box-sizing:border-box}
 
 /* Slideshow container */
