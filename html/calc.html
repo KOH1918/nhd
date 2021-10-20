@@ -13,25 +13,37 @@
             
         </div>
         <div id="menu">
-            <a href="cusar.html">
-                <div id="cusar">
-            
-                </div>
-            </a>
-            <a href="tninos.html">
-                 <div id="tninos">
 
-                </div>
-            </a>
-           <a href="tninas.html">
-              <div id="tninas">
 
-                </div> 
-           </a>
-            <a href="calc.html">
-                <div id="calc">
+<p>Recuerden que todos los valores dados por esta app son
+    referenciales para edades comprendidas entre dos (02)
+    y seis (06) años. Para obtener información 100% confiable
+    asista a su médico de confianza.
+</p>
 
-                </div>
+<input id="numb">
+
+<button type="button" onclick="myFunction()">Submit</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  // Get the value of the input field with id="numb"
+  let x = document.getElementById("numb").value;
+  // If x is Not a Number or less than one or greater than 10
+  let text;
+    
+  if (isNaN(x) || x < 1 || x > 10) {
+    text = "Input not valid";
+  } else {
+    text = "Input OK";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+
             </a>
         </div>
     </div>
