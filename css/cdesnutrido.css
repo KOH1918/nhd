@@ -1,31 +1,30 @@
 #contenedor{
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    max-width: 500px;
-    max-height: 600px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
     background-image: url(../img/Imagen1.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
-}
-#cabecera{
-    margin-left: 20%;
-    margin-top: 1%;
-    text-align: center;
-    height: 100px;
-    width: 300px;
-    background-image: url(../img/CONSEJO.PNG);
     background-repeat: no-repeat;
     background-position: center;
     background-size:contain;
 }
+#cabecera{
+  margin-left: 5%;
+
+  margin-top: 40%;
+  text-align: center;
+  height: 10%;
+  width: 90%;
+  background-image: url(../img/CONSEJO.PNG);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+}
 #slider{
-    margin-left: 9%;
-    margin-top: -50px;
+
+    margin-top: 25%;
     text-align: center;
     height: auto;
-    width: 400px;
+    width: 100%;
     padding-top: 2%;
     padding-bottom: 2%;
 }
