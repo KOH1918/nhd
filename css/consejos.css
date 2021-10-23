@@ -2,32 +2,31 @@
     position: fixed;
     height: 100%;
     width: 100%;
-    max-width: 500px;
-    max-height: 600px;
     background-image: url(../img/Imagen1.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size:cover;
+    background-size:fixed;
 }
 #cabecera{
-    margin-left: 20%;
-    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
     text-align: center;
     height: 100px;
-    width: 300px;
+    width: 50%;
     background-image: url(../img/CONSEJO.PNG);
     background-repeat: no-repeat;
     background-position: center;
     background-size:contain;
 }
 #menu{
-    margin-top: 5%;
-    margin-left: 9%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
     text-align: center;
-    height: auto;
-    width: 400px;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    height: 200px;
+    width: 50%;
+    position: absolute;
 
 }
 #obeso{
