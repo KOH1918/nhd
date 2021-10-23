@@ -41,15 +41,17 @@
 
 <button type="button" onclick="datos()">Resultado</button>
 </form>
-<p id="demo"></p><br><br>
+<p id="demo"></p><br>
 <p id="txttalla"></p>
 
 <script>
     let w = document.getElementById("sexo").value;
-    let x = document.getElementById("edad").value;
+    let x =Number (document.getElementById("edad").value);
     let y = document.getElementById("peso").value;
     let z = document.getElementById("talla").value;
-    let text, txttalla,txtpeso;
+    let text
+    let txttalla;
+    let txtpeso;
     let tallaB = 0, tallaA = 0;
     let pesoB, pesoA;
     y = Math.round(y);
@@ -57,15 +59,18 @@
 function calculo_talla(tallaA, tallaB, z) {
     if ((z < tallaA) && (z > tallaB)) {
         txttalla = "la talla está bien"
+        console.log("alta");
     }else {
         if (z >= tallaA) {
             txttalla = "la talla es alta";
+            console.log("alta");
         } else {
             if (z <= tallaB) {
                 txttalla = "La talla está baja";
             }
         }
     }
+    
 }
 function datos() {
     if (w == 0) {
@@ -74,7 +79,9 @@ function datos() {
             case 1:
                 tallaA = 50;
                 tallaB = 55;
-                calculo_talla(tallaA, tallaB, z)
+                calculo_talla(tallaA, tallaB, z);
+                console.log("alta");
+                
                 break;
             case 2:
                 
@@ -170,6 +177,7 @@ function datos() {
                 
                 break;
             default:
+                console.log("edad errada");
                 break;
         }
     } else {
