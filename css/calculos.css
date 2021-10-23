@@ -1,22 +1,19 @@
-body{
-    background-color: black;
-}
+
 #container{
     position: fixed;
     height: 100%;
     width: 100%;
-    max-width: 500px;
-    max-height: 600px;
     background-image: url(../img/Imagen1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size:contain;
 }
 #cabecera{
-    margin-left: 17%;
-    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 25%;
     text-align: center;
-    height: 100px;
+    height: 70px;
     width: 300px;
     background-image: url(../img/NHD.PNG);
     background-repeat: no-repeat;
@@ -27,8 +24,8 @@ body{
     margin-top: 10%;
     margin-left: 9%;
     text-align: center;
-    height: auto;
-    width: 400px;
+    height: 100%;
+    width: 80%;
     padding-top: 2%;
     padding-bottom: 2%;
 }
@@ -73,10 +70,16 @@ body{
 }
 p{
     margin-top: -5%;
+    margin-left: 2%;
+    margin-right: 2%;
+
+    
 }
 form{
     margin-top: -5%;
-
+    height: auto;
+    width: 70%;
+    position: absolute;
 }
 .elemento{
     text-align: center;
@@ -86,14 +89,33 @@ form{
     width: 120px;
 }
 #izq{
-    float: left;
+    width: 15%;
+    margin-left: 2%;
+    margin-right: 10%;
 }
 #der{
+    width: 20%;
     float: right;
+    margin-left: 10%;
+    margin-right: -10%;
+    margin-top: -80%;
 }
 button{
-    margin-top: 50%;
+margin-left: 5%;
+margin-right: 5%;
+height: fit-content;
+width: 100%;
+text-align: center;
 }
 #demo{
     margin-top: 5%;
+}
+#txt{
+    height: fit-content;
+    width: 50%;  
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color:cadetblue;
+    border-radius: 5%;
 }

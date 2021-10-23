@@ -23,29 +23,29 @@
 
 <form>
 <div id="izq">
-<h3>Ingrese el sexo</h3>
+<h3>Sexo</h3>
 <select id="sexo">
     <option value="0">Niña</option>
     <option value="1">Niño</option>
 </select><br>
-<h3>Ingrese la edad</h3>
+<h3>Edad</h3>
 <input type="date" id="edad" class="elemento">
 <br><br>
 </div>
 
 <div id="der">
-    <h3>Ingrese la talla</h3>
+    <h3>Talla</h3>
     <input id="talla" class="elemento"><br>
-    <h3>Ingrese el peso</h3>
+    <h3>Peso</h3>
     <input id="peso" class="elemento"><br><br>
 </div>
 
 <button type="button" onclick="datos()">Resultado</button>
 </form>
-<br>
+<div id="txt">
 <p id="txtpeso"></p><br>
 <p id="txttalla"></p>
-
+</div>
 <script>
     let w = document.getElementById("sexo").value;
     let fecha = document.getElementById("edad").value;
