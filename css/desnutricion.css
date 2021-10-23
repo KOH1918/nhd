@@ -4,11 +4,9 @@ body{
   min-width: 400px;
 }
 #contenedor{
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    max-width: 500px;
-    max-height: 600px;
+  position: absolute;
+  height: 100%;
+  width: 100%;;
     background-image: url(../img/Imagen1.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -19,16 +17,23 @@ body{
     max-width: 400px;
 }
 #cabecera{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1%;
-    text-align: center;
-    height: 100px;
-    width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  position: static;
+  margin-top: 2%;
+  text-align: center;
+  height: 10%;
+  width: 90%;
     background-image: url(../img/DESN.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size:contain;
+}
+#txt1 img{
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  width: 90%;
 }
 #txt1{
   margin-top: 10%;
@@ -55,17 +60,7 @@ button{
   margin-right: auto;
     display: none;
 }
-#txt3{
-  margin-top: 10%;
-  text-align: center;
-  height: 100%;
-  width: 80%;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  margin-left: auto;
-  margin-right: auto;
-    display: none;
-}
+
 h4{
   margin-top: -5%;
 }

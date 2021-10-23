@@ -4,7 +4,7 @@ body{
   min-width: 400px;
 }
 #contenedor{
-  position: absolute;
+  position: static;
   height: 100%;
   width: 100%;
     background-image: url(../img/Imagen1.png);
