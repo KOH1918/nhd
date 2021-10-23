@@ -1,6 +1,9 @@
 
+body{
+    background-color: #b7cfa6;
+}
 #container{
-    position: fixed;
+    position: absolute;
     height: 100%;
     width: 100%;
     background-image: url(../img/Imagen1.png);
@@ -72,7 +75,6 @@ p{
     margin-top: -5%;
     margin-left: 2%;
     margin-right: 2%;
-
     
 }
 form{
@@ -118,4 +120,7 @@ text-align: center;
     margin-right: 25%;
     background-color:cadetblue;
     border-radius: 5%;
+}
+#txttalla{
+    padding-bottom: 5%;
 }

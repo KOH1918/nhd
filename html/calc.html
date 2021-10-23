@@ -42,7 +42,7 @@
 
 <button type="button" onclick="datos()">Resultado</button>
 </form>
-<div id="txt">
+<div id="txt"><br>
 <p id="txtpeso"></p><br>
 <p id="txttalla"></p>
 </div>
@@ -104,7 +104,7 @@ function calculo_peso(pesoA, pesoB, y) {
     return edad;
 }
 function datos() {
-    
+    y = y * 1000;
     let x = Number (calcularEdad(fecha));
     console.log(x);
     if (w == 0) {
