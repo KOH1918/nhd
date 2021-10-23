@@ -12,12 +12,11 @@ body{
     background-size:contain;
 }
 #cabecera{
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 25%;
+
+    margin-top: 40%;
     text-align: center;
-    height: 70px;
-    width: 300px;
+    height: 10%;
+    width: 100%;
     background-image: url(../img/NHD.PNG);
     background-repeat: no-repeat;
     background-position: center;
@@ -33,40 +32,53 @@ body{
     padding-bottom: 2%;
 }
 #cusar{
-    margin-left: 6%;
     text-align: center;
-    height: 70px;
-    width: 350px;
+    height: 5%;
+    width: 100%;
+    margin-top: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+    position: relative;
     background-image: url(../img/utilizar.png);
     background-size:cover;
     background-position: center;
 }
 #tninos{
-    margin-left: 6%;
-    margin-top: 2%;
     text-align: center;
-    height: 70px;
-    width: 350px;
+    height: 5%;
+    width: 100%;
+    margin-top: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+    position: relative;
     background-image: url(../img/tabninos.png);
     background-size:cover;
     background-position: center;
 }
 #tninas{
-    margin-left: 6%;
-    margin-top: 2%;
     text-align: center;
-    height: 70px;
-    width: 350px;
+    height: 5%;
+    width: 100%;
+    margin-top: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+    position: relative;
     background-image: url(../img/tabninas.png);
     background-size:cover;
     background-position: center;
 }
 #calc{
-    margin-left: 6%;
-    margin-top: 2%;
     text-align: center;
-    height: 70px;
-    width: 350px;
+    height: 4%;
+    width: 100%;
+    margin-top: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+    position: relative;
     background-image: url(../img/MAS.png);
     background-size:cover;
     background-position: center;
