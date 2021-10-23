@@ -1,3 +1,8 @@
+body{
+    background-color: #b7cfa6;
+    min-height: 600px;
+    min-width: 400px;
+}
 #container{
     position: fixed;
     height: 100%;
@@ -7,6 +12,10 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size:contain;
+    min-height: 600px;
+    min-width: 400px;
+    max-height: 600px;
+    max-width: 400px;
 }
 
 #menu{
@@ -19,8 +28,7 @@
     position: absolute;
 }
 #consejos{
-    
-    
+
     text-align: center;
     height: auto;
     width: 90%;

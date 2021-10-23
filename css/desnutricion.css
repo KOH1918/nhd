@@ -1,3 +1,8 @@
+body{
+  background-color: #b7cfa6;
+  min-height: 600px;
+  min-width: 400px;
+}
 #contenedor{
     position: fixed;
     height: 100%;
@@ -7,10 +12,15 @@
     background-image: url(../img/Imagen1.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size:cover;
+    background-size:contain;
+    min-height: 600px;
+    min-width: 400px;
+    max-height: 600px;
+    max-width: 400px;
 }
 #cabecera{
-    margin-left: 20%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 1%;
     text-align: center;
     height: 100px;
@@ -21,53 +31,56 @@
     background-size:contain;
 }
 #txt1{
-    margin-top: 5%;
-    margin-left: 9%;
-    text-align: center;
-    height: auto;
-    width: 400px;
-    padding-top: 2%;
-    padding-bottom: 2%;
+  margin-top: 10%;
+  text-align: center;
+  height: 100%;
+  width: 80%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+button{
+  margin-left: auto;
+  margin-right: auto;
 }
 #txt2{
-    margin-top: 5%;
-    margin-left: 9%;
-    text-align: center;
-    height: auto;
-    width: 400px;
-    padding-top: 2%;
-    padding-bottom: 2%;
+  margin-top: 10%;
+  text-align: center;
+  height: 100%;
+  width: 80%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-left: auto;
+  margin-right: auto;
     display: none;
 }
+h4{
+  margin-top: -5%;
+}
 #slider{
-    margin-left: 9%;
-    margin-top: -50px;
-    text-align: center;
-    height: auto;
-    width: 400px;
-    padding-top: 2%;
-    padding-bottom: 2%;
+  text-align: center;
+  height: auto;
+  width: 60%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-left: auto;
+  margin-right: auto;
     display: none;
 }
 p{
+
     text-align: justify;
-    margin-left: 6%;
-    margin-top: 2%;
-    text-align: center;
     font-family:Arial, Helvetica, sans-serif ;
     font-size: x-large;
     height: auto;
-    width: 350px;
 }
 #txt2 p{
-    text-align: justify;
-    margin-left: 6%;
-    margin-top: 2%;
-    text-align: center;
+  text-align: center;
     font-family:Arial, Helvetica, sans-serif ;
     font-size: medium;
     height: auto;
-    width: 350px;
+
 }
 * {box-sizing:border-box}
 

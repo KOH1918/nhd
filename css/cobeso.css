@@ -1,3 +1,8 @@
+body{
+  background-color: #b7cfa6;
+  min-height: 600px;
+  min-width: 400px;
+}
 #contenedor{
   position: absolute;
   height: 100%;
@@ -6,6 +11,10 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size:contain;
+    min-height: 600px;
+    min-width: 400px;
+    max-height: 600px;
+    max-width: 400px;
 }
 #cabecera{
   margin-left: 5%;
