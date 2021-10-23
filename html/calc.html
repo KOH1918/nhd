@@ -14,28 +14,177 @@
         </div>
         <div id="menu">
 
-
 <p>Recuerden que todos los valores dados por esta app son
     referenciales para edades comprendidas entre dos (02)
     y seis (06) años. Para obtener información 100% confiable
     asista a su médico de confianza.
-</p><br><br>
+</p><br>
 
+
+<form>
+<div id="izq">
+<h3>Ingrese el sexo</h3>
+<select id="sexo">
+    <option value="0">Niña</option>
+    <option value="1">Niño</option>
+</select><br>
 <h3>Ingrese la edad</h3>
+<input id="edad" class="elemento"><br><br>
+</div>
 
-<input id="numb"><br><br>
+<div id="der">
+    <h3>Ingrese la talla</h3>
+    <input id="talla" class="elemento"><br>
+    <h3>Ingrese el peso</h3>
+    <input id="peso" class="elemento"><br><br>
+</div>
 
-
-<button type="button" onclick="myFunction()">Resultado</button>
-
-<p id="demo"></p>
+<button type="button" onclick="datos()">Resultado</button>
+</form>
+<p id="demo"></p><br><br>
+<p id="txttalla"></p>
 
 <script>
+    let w = document.getElementById("sexo").value;
+    let x = document.getElementById("edad").value;
+    let y = document.getElementById("peso").value;
+    let z = document.getElementById("talla").value;
+    let text, txttalla,txtpeso;
+    let tallaB = 0, tallaA = 0;
+    let pesoB, pesoA;
+    y = Math.round(y);
+    z = Math.round(z);
+function calculo_talla(tallaA, tallaB, z) {
+    if ((z < tallaA) && (z > tallaB)) {
+        txttalla = "la talla está bien"
+    }else {
+        if (z >= tallaA) {
+            txttalla = "la talla es alta";
+        } else {
+            if (z <= tallaB) {
+                txttalla = "La talla está baja";
+            }
+        }
+    }
+}
+function datos() {
+    if (w == 0) {
+        text = "es niña";
+        switch (x) {
+            case 1:
+                tallaA = 50;
+                tallaB = 55;
+                calculo_talla(tallaA, tallaB, z)
+                break;
+            case 2:
+                
+                break;
+            case 3:
+                
+                break;
+            case 4:
+                
+                break;
+            case 5:
+                
+                break;
+            case 6:
+                
+                break;
+            case 7:
+                
+                break;
+            case 8:
+                
+                break;
+            case 9:
+                
+                break;
+            case 10:
+                
+                break;
+            case 11:
+                
+                break;
+            case 12:
+                
+                break;
+            case 13:
+                
+                break;
+            case 14:
+                
+                break;
+            case 15:
+                
+                break;
+            case 16:
+                
+                break;
+            case 17:
+                
+                break;
+            case 18:
+                
+                break;
+            case 19:
+                
+                break;
+            case 20:
+                
+                break;
+            case 21:
+                
+                break;
+            case 22:
+                
+                break;
+            case 23:
+                
+                break;
+            case 24:
+                
+                break;
+            case 25:
+                
+                break;
+            case 26:
+                
+                break;
+            case 27:
+                
+                break;
+            case 28:
+                
+                break;
+            case 29:
+                
+                break;
+            case 30:
+                
+                break;
+            case 31:
+                
+                break;
+            case 32:
+                
+                break;
+            default:
+                break;
+        }
+    } else {
+        text = "es niño";
+    }
+    document.getElementById("demo").innerHTML = text;
+    document.getElementById("txttalla").innerHTML = txttalla;
+}
+
+
 function myFunction() {
-  // Get the value of the input field with id="numb"
-  let x = document.getElementById("numb").value;
+  // Get the value of the input field with id="edad"
+  let x = document.getElementById("edad").value;
   // If x is Not a Number or less than one or greater than 10
-  let text;
+  
     
   if (x = 4) {
     text = "16";
