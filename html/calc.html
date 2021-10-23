@@ -41,7 +41,8 @@
 
 <button type="button" onclick="datos()">Resultado</button>
 </form>
-<p id="demo"></p><br>
+<br>
+<p id="txtpeso"></p><br>
 <p id="txttalla"></p>
 
 <script>
@@ -59,131 +60,556 @@
 function calculo_talla(tallaA, tallaB, z) {
     if ((z < tallaA) && (z > tallaB)) {
         txttalla = "la talla está bien"
-        console.log("alta");
     }else {
         if (z >= tallaA) {
             txttalla = "la talla es alta";
-            console.log("alta");
         } else {
             if (z <= tallaB) {
                 txttalla = "La talla está baja";
             }
         }
-    }
-    
+    }   
+}
+function calculo_peso(pesoA, pesoB, y) {
+    if ((y < pesoA) && (y > pesoB)) {
+        txtpeso = "El peso está bien"
+    }else {
+        if (y >= pesoA) {
+            txtpeso = "Tiene sobrepeso";
+        } else {
+            if (y <= pesoB) {
+                txtpeso = "El peso está bajo";
+            }
+        }
+    } 
 }
 function datos() {
     if (w == 0) {
-        text = "es niña";
         switch (x) {
             case 1:
-                tallaA = 50;
-                tallaB = 55;
+                tallaA = 55;
+                tallaB = 50;
+                pesoA = 5000;
+                pesoB = 2500;
                 calculo_talla(tallaA, tallaB, z);
-                console.log("alta");
-                
+                calculo_peso(pesoA, pesoB, y);
                 break;
             case 2:
-                
+                tallaA = 58;
+                tallaB = 53;
+                pesoA = 5500;
+                pesoB = 4000;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
                 break;
             case 3:
-                
+                tallaA = 61;
+                tallaB = 57;
+                pesoA = 6500;
+                pesoB = 4500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
                 break;
             case 4:
-                
+                tallaA = 59;
+                tallaB = 55;
+                pesoA = 7500;
+                pesoB = 5000;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
                 break;
             case 5:
-                
+                tallaA = 67;
+                tallaB = 61;
+                pesoA = 5500;
+                pesoB = 8000;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
                 break;
             case 6:
-                
+                tallaA = 69;
+                tallaB = 63;
+                pesoA = 8000;
+                pesoB = 6000;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
                 break;
             case 7:
-                
+                tallaA = 71;
+                tallaB = 64;
+                pesoA = 9000;
+                pesoB = 6500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
                 break;
             case 8:
-                
+                tallaA = 73;
+                tallaB = 65;
+                pesoA = 9500;
+                pesoB = 7000;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
                 break;
             case 9:
-                
+                tallaA = 74;
+                tallaB = 66;
+                pesoA = 9900;
+                pesoB = 27500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
                 break;
             case 10:
-                
+                tallaA = 76;
+                tallaB = 68;
+                pesoA = 10200;
+                pesoB = 7500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
                 break;
             case 11:
-                
+                tallaA = 77;
+                tallaB = 70;
+                pesoA = 10700;
+                pesoB = 8000;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
                 break;
             case 12:
-                
+                tallaA = 78;
+                tallaB = 71;
+                pesoA = 11000;
+                pesoB = 8500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
                 break;
             case 13:
-                
+                tallaA = 81;
+                tallaB = 74;
+                pesoA = 11900;
+                pesoB = 9000;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
                 break;
             case 14:
-                
+                tallaA = 84;
+                tallaB = 77;
+                pesoA = 12500;
+                pesoB = 9500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
                 break;
             case 15:
-                
+                tallaA = 88;
+                tallaB = 80;
+                pesoA = 13000;
+                pesoB = 10000;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
                 break;
             case 16:
-                
+                tallaA = 90;
+                tallaB = 82;
+                pesoA = 13800;
+                pesoB = 10500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
                 break;
             case 17:
-                
+                tallaA = 91;
+                tallaB = 83;
+                pesoA = 14500;
+                pesoB = 11000;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
                 break;
             case 18:
-                
+                tallaA = 94;
+                tallaB = 85;
+                pesoA = 15200;
+                pesoB = 11400;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
                 break;
             case 19:
-                
+                tallaA = 97;
+                tallaB = 87;
+                pesoA = 16000;
+                pesoB = 11900;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
                 break;
             case 20:
-                
+                tallaA = 99;
+                tallaB = 89;
+                pesoA = 16700;
+                pesoB = 12200;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
                 break;
             case 21:
-                
+                tallaA = 101;
+                tallaB = 91;
+                pesoA = 17300;
+                pesoB = 12800;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
                 break;
             case 22:
-                
+                tallaA = 103;
+                tallaB = 93;
+                pesoA = 18000;
+                pesoB = 13500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
                 break;
             case 23:
-                
+                tallaA = 105;
+                tallaB = 94;
+                pesoA = 18500;
+                pesoB = 13500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
                 break;
             case 24:
-                
+                tallaA = 107;
+                tallaB = 96;
+                pesoA = 19000;
+                pesoB = 14000;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
                 break;
             case 25:
-                
+                tallaA = 108;
+                tallaB = 98;
+                pesoA = 19500;
+                pesoB = 14200;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
                 break;
             case 26:
-                
+                tallaA = 110;
+                tallaB = 99;
+                pesoA = 20100;
+                pesoB = 14600;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
                 break;
             case 27:
-                
+                tallaA = 112;
+                tallaB = 101;
+                pesoA = 20500;
+                pesoB = 15000;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
                 break;
             case 28:
-                
+                tallaA = 114;
+                tallaB = 103;
+                pesoA = 21400;
+                pesoB = 15400;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
                 break;
             case 29:
-                
+                tallaA = 115;
+                tallaB = 104;
+                pesoA = 22000;
+                pesoB = 15600;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
                 break;
             case 30:
-                
+                tallaA = 117;
+                tallaB = 105;
+                pesoA = 22500;
+                pesoB = 16000;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
                 break;
             case 31:
-                
+                tallaA = 119;
+                tallaB = 107;
+                pesoA = 23200;
+                pesoB = 16200;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
                 break;
             case 32:
-                
+                tallaA = 120;
+                tallaB = 108;
+                pesoA = 23500;
+                pesoB = 16500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
                 break;
             default:
                 console.log("edad errada");
                 break;
         }
     } else {
-        text = "es niño";
+        switch (x) {
+            case 1:
+                tallaA = 50;
+                tallaB = 55;
+                pesoA = 5000;
+                pesoB = 2500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
+                break;
+            case 2:
+            tallaA = 50;
+                tallaB = 55;
+                pesoA = 5000;
+                pesoB = 2500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
+                break;
+            case 3:
+            tallaA = 50;
+                tallaB = 55;
+                pesoA = 5000;
+                pesoB = 2500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
+                break;
+            case 4:
+            tallaA = 50;
+                tallaB = 55;
+                pesoA = 5000;
+                pesoB = 2500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
+                break;
+            case 5:
+            tallaA = 50;
+                tallaB = 55;
+                pesoA = 5000;
+                pesoB = 2500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
+                break;
+            case 6:
+            tallaA = 50;
+                tallaB = 55;
+                pesoA = 5000;
+                pesoB = 2500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
+                break;
+            case 7:
+            tallaA = 50;
+                tallaB = 55;
+                pesoA = 5000;
+                pesoB = 2500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
+                break;
+            case 8:
+            tallaA = 50;
+                tallaB = 55;
+                pesoA = 5000;
+                pesoB = 2500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
+                break;
+            case 9:
+            tallaA = 50;
+                tallaB = 55;
+                pesoA = 5000;
+                pesoB = 2500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
+                break;
+            case 10:
+            tallaA = 50;
+                tallaB = 55;
+                pesoA = 5000;
+                pesoB = 2500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
+                break;
+            case 11:
+            tallaA = 50;
+                tallaB = 55;
+                pesoA = 5000;
+                pesoB = 2500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
+                break;
+            case 12:
+            tallaA = 50;
+                tallaB = 55;
+                pesoA = 5000;
+                pesoB = 2500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
+                break;
+            case 13:
+            tallaA = 50;
+                tallaB = 55;
+                pesoA = 5000;
+                pesoB = 2500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
+                break;
+            case 14:
+            tallaA = 50;
+                tallaB = 55;
+                pesoA = 5000;
+                pesoB = 2500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
+                break;
+            case 15:
+            tallaA = 50;
+                tallaB = 55;
+                pesoA = 5000;
+                pesoB = 2500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
+                break;
+            case 16:
+            tallaA = 50;
+                tallaB = 55;
+                pesoA = 5000;
+                pesoB = 2500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
+                break;
+            case 17:
+            tallaA = 50;
+                tallaB = 55;
+                pesoA = 5000;
+                pesoB = 2500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
+                break;
+            case 18:
+            tallaA = 50;
+                tallaB = 55;
+                pesoA = 5000;
+                pesoB = 2500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
+                break;
+            case 19:
+            tallaA = 50;
+                tallaB = 55;
+                pesoA = 5000;
+                pesoB = 2500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
+                break;
+            case 20:
+            tallaA = 50;
+                tallaB = 55;
+                pesoA = 5000;
+                pesoB = 2500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
+                break;
+            case 21:
+            tallaA = 50;
+                tallaB = 55;
+                pesoA = 5000;
+                pesoB = 2500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
+                break;
+            case 22:
+            tallaA = 50;
+                tallaB = 55;
+                pesoA = 5000;
+                pesoB = 2500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
+                break;
+            case 23:
+            tallaA = 50;
+                tallaB = 55;
+                pesoA = 5000;
+                pesoB = 2500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
+                break;
+            case 24:
+            tallaA = 50;
+                tallaB = 55;
+                pesoA = 5000;
+                pesoB = 2500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
+                break;
+            case 25:
+            tallaA = 50;
+                tallaB = 55;
+                pesoA = 5000;
+                pesoB = 2500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
+                break;
+            case 26:
+            tallaA = 50;
+                tallaB = 55;
+                pesoA = 5000;
+                pesoB = 2500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
+                break;
+            case 27:
+            tallaA = 50;
+                tallaB = 55;
+                pesoA = 5000;
+                pesoB = 2500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
+                break;
+            case 28:
+            tallaA = 50;
+                tallaB = 55;
+                pesoA = 5000;
+                pesoB = 2500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
+                break;
+            case 29:
+            tallaA = 50;
+                tallaB = 55;
+                pesoA = 5000;
+                pesoB = 2500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
+                break;
+            case 30:
+            tallaA = 50;
+                tallaB = 55;
+                pesoA = 5000;
+                pesoB = 2500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
+                break;
+            case 31:
+            tallaA = 50;
+                tallaB = 55;
+                pesoA = 5000;
+                pesoB = 2500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
+                break;
+            case 32:
+            tallaA = 50;
+                tallaB = 55;
+                pesoA = 5000;
+                pesoB = 2500;
+                calculo_talla(tallaA, tallaB, z);
+                calculo_peso(pesoA, pesoB, y);
+                break;
+            default:
+                console.log("edad errada");
+                break;
+        }
     }
-    document.getElementById("demo").innerHTML = text;
+    document.getElementById("txtpeso").innerHTML = txtpeso;
     document.getElementById("txttalla").innerHTML = txttalla;
 }
 
