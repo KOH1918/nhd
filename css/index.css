@@ -10,65 +10,298 @@
 }
 
 #menu{
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 35%;
     text-align: center;
     height: auto;
-    width: 50%;
+    width: 90%;
     position: absolute;
 }
 #consejos{
-    margin-left: 5%;
-    margin-right: 5%;
+    
+    
     text-align: center;
-    height: 70px;
-    width: 370px;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    height: auto;
+    width: 90%;
+    margin-top: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 
     position: relative;
+    background-color: blue;
 }
 #calculos{
-    margin-left: 5%;
-    margin-right: 5%;
     text-align: center;
-    height: 70px;
-    width: 370px;
-    margin-top: 5%;
-    margin-bottom: 8%;
+    height: auto;
+    width: 90%;
+    margin-top: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 
     position: relative;
+    background-color: blue;
 }
 #desnutricion{
-    margin-left: 5%;
-    margin-right: 5%;
     text-align: center;
-    height: 70px;
-    width: 370px;
-    margin-top: 5%;
-    margin-bottom: 7%;
+    height: auto;
+    width: 90%;
+    margin-top: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 
     position: relative;
+    background-color: blue;
 }
 #obesidad{
-    margin-left: 5%;
-    margin-right: 5%;
     text-align: center;
-    height: 70px;
-    width: 370px;
-    margin-top: 5%;
-    margin-bottom: 7%;
+    height: auto;
+    width: 90%;
+    margin-top: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 
     position: relative;
+    background-color: blue;
 }
 #informacion{
-    margin-left: 5%;
-    margin-right: 5%;
     text-align: center;
-    height: 70px;
-    width: 370px;
-    margin-top: 5%;
-  
+    height: auto;
+    width: 90%;
+    margin-top: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     position: relative;
+    background-color: blue;
 }
+@media screen and (max-height: 1100px) {
+    #menu{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 20%;
+        text-align: center;
+        height: auto;
+        width: 80%;
+        position: absolute;
+        padding-top: 10%;
+    }
+    #consejos{
+
+        text-align: center;
+        height: auto;
+        width: 100%;
+        margin-top: 5%;
+        padding-bottom: 6%;
+        position: relative;
+        background-color: blue;
+    }
+    #calculos{
+        text-align: center;
+        height: auto;
+        width: 100%;
+        margin-top: 5%;
+        padding-bottom: 6%;
+        position: relative;
+        background-color: blue;
+    }
+    #desnutricion{
+        text-align: center;
+        height: auto;
+        width: 100%;
+        margin-top: 5%;
+        padding-bottom: 6%;
+        position: relative;
+        background-color: blue;
+    }
+    #obesidad{
+        text-align: center;
+        height: auto;
+        width: 100%;
+        padding-bottom: 6%;
+        position: relative;
+        background-color: blue;
+    }
+    #informacion{
+        text-align: center;
+        height: auto;
+        width: 100%;
+        padding-bottom: 6%;
+        position: relative;
+        background-color: blue;
+    }
+  }
+@media screen and (max-height: 900px) {
+    #menu{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 30%;
+        text-align: center;
+        height: auto;
+        width: 80%;
+        position: absolute;
+        padding-top: 10%;
+    }
+    #consejos{
+
+        text-align: center;
+        height: auto;
+        width: 100%;
+        margin-top: 10%;
+        padding-bottom: 10%;
+        position: relative;
+        background-color: blue;
+    }
+    #calculos{
+        text-align: center;
+        height: auto;
+        width: 100%;
+        margin-top: 10%;
+        padding-bottom: 10%;
+        position: relative;
+        background-color: blue;
+    }
+    #desnutricion{
+        text-align: center;
+        height: auto;
+        width: 100%;
+        margin-top: 10%;
+        padding-bottom: 10%;
+        position: relative;
+        background-color: blue;
+    }
+    #obesidad{
+        text-align: center;
+        height: auto;
+        width: 100%;
+        margin-top: 10%;
+        padding-bottom: 10%;
+        position: relative;
+        background-color: blue;
+    }
+    #informacion{
+        text-align: center;
+        height: auto;
+        width: 100%;
+        margin-top: 5%;
+        padding-bottom: 10%;
+        position: relative;
+        background-color: blue;
+    }
+  }
+  @media screen and (max-height: 800px or max-width) {
+    @media screen and (max-height: 700px ) {
+        #menu{
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 25%;
+            text-align: center;
+            height: auto;
+            width: 80%;
+            position: absolute;
+            padding-top: 10%;
+        }
+        #consejos{
+    
+            text-align: center;
+            height: auto;
+            width: 100%;
+            margin-top: 15%;
+            padding-bottom: 10%;
+            position: relative;
+            background-color: blue;
+        }
+        #calculos{
+            text-align: center;
+            height: auto;
+            width: 100%;
+            margin-top: 5%;
+            padding-bottom: 6%;
+            position: relative;
+            background-color: blue;
+        }
+        #desnutricion{
+            text-align: center;
+            height: auto;
+            width: 100%;
+            margin-top: 5%;
+            padding-bottom: 6%;
+            position: relative;
+            background-color: blue;
+        }
+        #obesidad{
+            text-align: center;
+            height: auto;
+            width: 100%;
+            margin-top: 3%;
+            padding-bottom: 6%;
+            position: relative;
+            background-color: blue;
+        }
+        #informacion{
+            text-align: center;
+            height: auto;
+            width: 100%;
+            margin-top: 5%;
+            padding-bottom: 10%;
+            position: relative;
+            background-color: blue;
+        }
+      }
+  @media screen and (max-height: 500px) {
+    #menu{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 40%;
+        text-align: center;
+        height: auto;
+        width: 80%;
+        position: absolute;
+        padding-top: 10%;
+    }
+    #consejos{
+
+        text-align: center;
+        height: auto;
+        width: 100%;
+        margin-top: 10%;
+        padding-bottom: 4%;
+        position: relative;
+        background-color: blue;
+    }
+    #calculos{
+        text-align: center;
+        height: auto;
+        width: 100%;
+        margin-top: 10%;
+        padding-bottom: 4%;
+        position: relative;
+        background-color: blue;
+    }
+    #desnutricion{
+        text-align: center;
+        height: auto;
+        width: 100%;
+        margin-top: 10%;
+        padding-bottom: 4%;
+        position: relative;
+        background-color: blue;
+    }
+    #obesidad{
+        text-align: center;
+        height: auto;
+        width: 100%;
+        margin-top: 10%;
+        padding-bottom: 4%;
+        position: relative;
+        background-color: blue;
+    }
+    #informacion{
+        text-align: center;
+        height: auto;
+        width: 100%;
+        margin-top: 10%;
+        padding-bottom: 4%;
+        position: relative;
+        background-color: blue;
+    }
+  }
