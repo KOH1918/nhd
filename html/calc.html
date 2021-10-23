@@ -93,12 +93,20 @@ function calculo_peso(pesoA, pesoB, y) {
     if (m < 0 || (m === 0 && hoy.getDate() < cumpleanos.getDate())) {
         edad--;
     }
-
+    edad = edad * 12;
+    if (m < 0) {
+        m = m + 12;
+    }
+    edad = edad + m;
+    while (edad % 3 != 0) {
+        edad--;
+    }
     return edad;
 }
 function datos() {
     
     let x = Number (calcularEdad(fecha));
+    console.log(x);
     if (w == 0) {
         switch (x) {
             case 1:
