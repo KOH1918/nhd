@@ -82,6 +82,9 @@ form{
     text-align: center;
     width: 40px;
 }
+#edad{
+    width: 120px;
+}
 #izq{
     float: left;
 }

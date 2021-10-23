@@ -29,7 +29,8 @@
     <option value="1">Niño</option>
 </select><br>
 <h3>Ingrese la edad</h3>
-<input id="edad" class="elemento"><br><br>
+<input type="date" id="edad" class="elemento">
+<br><br>
 </div>
 
 <div id="der">
@@ -47,7 +48,7 @@
 
 <script>
     let w = document.getElementById("sexo").value;
-    let x =Number (document.getElementById("edad").value);
+    let fecha = document.getElementById("edad").value;
     let y = document.getElementById("peso").value;
     let z = document.getElementById("talla").value;
     let text
@@ -83,7 +84,21 @@ function calculo_peso(pesoA, pesoB, y) {
         }
     } 
 }
+    function calcularEdad(fecha) {
+    var hoy = new Date();
+    var cumpleanos = new Date(fecha);
+    var edad = hoy.getFullYear() - cumpleanos.getFullYear();
+    var m = hoy.getMonth() - cumpleanos.getMonth();
+
+    if (m < 0 || (m === 0 && hoy.getDate() < cumpleanos.getDate())) {
+        edad--;
+    }
+
+    return edad;
+}
 function datos() {
+    
+    let x = Number (calcularEdad(fecha));
     if (w == 0) {
         switch (x) {
             case 1:
