@@ -48,7 +48,9 @@ p{
     height: auto;
     width: 350px;
 }
-
+#peque{
+  margin-top: 40%;
+}
 * {box-sizing:border-box}
 
 /* Slideshow container */

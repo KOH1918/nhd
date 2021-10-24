@@ -100,6 +100,9 @@ body{
       height: auto;
   
   }
+  #peque{
+      margin-top: 40%;
+  }
   * {box-sizing:border-box}
   
   /* Slideshow container */
