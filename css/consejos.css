@@ -4,7 +4,7 @@ body{
     min-width: 400px;
 }
 #container{
-    position: static;
+    position: absolute;
     height: 100%;
     width: 100%;
     background-image: url(../img/Imagen1.png);
@@ -18,8 +18,9 @@ body{
 }
 #cabecera{
     margin-left: 5%;
-
-    margin-top: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
     text-align: center;
     height: 10%;
     width: 90%;
@@ -27,6 +28,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size:contain;
+    position: static;
 }
 #menu{
     margin-top: 10%;
@@ -42,20 +44,22 @@ body{
 #obeso{
     position: relative;
     text-align: center;
-    height: 20%;
+    height: 30%;
     width: 100%;
     background-image: url(../img/obeso.PNG);
     background-size:cover;
     background-position: center;
+    border-radius: 35px;
 }
 #desnutrido{
 
     position: relative;
     text-align: center;
-    height: 20%;
+    height: 30%;
     width: 100%;
     background-image: url(../img/denutricions.PNG);
     background-size:cover;
     background-position: center;
     margin-top: 5%;
+    border-radius: 35px;
 }
